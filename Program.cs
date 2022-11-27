@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 
 namespace Obserwator_Replit
 {
@@ -113,9 +112,6 @@ namespace Obserwator_Replit
             newsAgency.Detach(dailyEconomy);
 
             newsAgency.setNewsHeadline(Genre.Economy, "Texas is going bancrupt!");
-
-            newsAgency.Detach(newYork);
-            newsAgency.Detach(nationalGeographic);
         }
     }
 }
